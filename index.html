@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Banking System</title>
+</head>
+<body>
+    <h1>Simple Banking System</h1>
+
+    <!-- Create Account Form -->
+    <h2>Create Account</h2>
+    <form action="/create_account" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" name="name" required><br>
+        <label for="account_number">Account Number:</label>
+        <input type="number" name="account_number" required><br>
+        <button type="submit">Create Account</button>
+    </form>
+
+    <!-- Deposit Form -->
+    <h2>Deposit Money</h2>
+    <form action="/deposit" method="POST">
+        <label for="account_number">Account Number:</label>
+        <input type="number" name="account_number" required><br>
+        <label for="amount">Amount:</label>
+        <input type="number" name="amount" required><br>
+        <button type="submit">Deposit</button>
+    </form>
+
+    <!-- Withdraw Form -->
+    <h2>Withdraw Money</h2>
+    <form action="/withdraw" method="POST">
+        <label for="account_number">Account Number:</label>
+        <input type="number" name="account_number" required><br>
+        <label for="amount">Amount:</label>
+        <input type="number" name="amount" required><br>
+        <button type="submit">Withdraw</button>
+    </form>
+
+    <!-- Check Balance Form -->
+    <h2>Check Balance</h2>
+    <form action="/check_balance" method="POST">
+        <label for="account_number">Account Number:</label>
+        <input type="number" name="account_number" required><br>
+        <button type="submit">Check Balance</button>
+    </form>
+</body>
+</html>
