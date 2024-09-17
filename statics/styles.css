@@ -1,0 +1,48 @@
+/* General Styling for All Pages */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    padding: 0;
+    color: #333;
+}
+
+/* Different Background for Each Page */
+body.home {
+    background-color: #f0f8ff; /* Light blue background for Home */
+}
+
+body.about {
+    background-color: #f9f9f9; /* Light grey background for About */
+}
+
+body.services {
+    background-color: #e6f7e9; /* Light green background for Services */
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    margin: 10px;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
